@@ -19,7 +19,9 @@ items.forEach((item) => {
     item.innerHTML = '<a href="#">Foro</a>';
   }
 });
-
+let titulo = document.getElementsByTagName('title');
+console.log(titulo[0]);
+titulo[0].textContent = "Menú Javascript";
 /**
 productos.forEach(item => {
     Condicion o usar if else 
